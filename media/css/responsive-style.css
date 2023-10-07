@@ -1,0 +1,277 @@
+/* Responsive Start */
+@media (max-width: 1400px)
+{
+     /* booking area */
+     .booking-area
+     {
+        padding: 3rem .625rem;
+
+     }
+
+     .booking-area .main-btn
+     {
+        padding-left: .5rem !important;
+        padding-right: .25rem !important;
+        font-size: 1rem;
+     }
+     /* rooms */
+     .rooms-wrapper .room-items:hover .room-content
+     {
+     transform: scale(.75);
+     -webkit-transform: scale(.75);
+     }
+}
+@media (max-width: 1200px)
+{
+    /* header */
+    .header-wrapper .navbar-expand-lg .navbar-nav
+    {
+        align-items: center;
+    }
+    .header-wrapper .navbar-expand-lg .navbar-nav .nav-link
+    {
+        padding: 0;
+        font-size: .875rem;
+    }
+    .main-btn
+    {
+        font-size: .875rem;
+    }
+
+
+    /* booking area */
+     .booking-area
+     {
+        padding: 3rem .625rem;
+
+     }
+
+     .booking-area .main-btn
+     {
+        padding-left: .5rem !important;
+        padding-right: .25rem !important;
+        font-size: .8rem;
+        font-weight: 520;
+     }
+     /* Rooms */
+     .room-items .room-content
+     {
+        padding: 1rem 1.875rem;
+     }
+     .room-items .room-content h5
+     {
+        font-size: 1.2rem;
+     }
+     .room-items .room-content p
+     {
+        font-size: .8rem;
+     }
+     .rooms-wrapper .room-items:hover .room-content
+     {
+     transform: scale(.75);
+     -webkit-transform: scale(.75);
+     }
+    /* service */
+}
+
+
+
+@media (max-width: 991px)
+{
+    /* custom css */
+    section
+    {
+        padding: 1.875rem 0;
+    }
+    
+    /*2. Navbar */
+    .header-scrolled
+    {
+        height: auto;
+    }
+     
+    .header-wrapper .menu-navbar-nav
+    {
+        text-align: center;
+        padding-bottom: .9375rem;
+    }
+    .header-wrapper .nav-item .nav-link
+    {
+        margin-top: .9375rem;
+    }
+
+    /* banner-wrapper */
+    .banner-wrapper
+    {
+        height: 25.625rem;
+    }
+    /* booking area */
+    .booking-area
+    {
+        padding: 1.125rem 1.875rem;
+    }
+    .booking-area .main-btn
+    {
+        margin-left: 0rem;
+    }
+    .form-btn button
+    {
+        position: relative;
+        top: 10px;
+        left: 39%;
+    }
+    /* About */
+    .about-wrapper
+    {
+        padding-top: 25.375rem;
+    }
+     /* Rooms */
+
+     .room-items .room-content
+     {
+        padding: 2rem 1.875rem;
+     }
+     .room-items .room-content h5
+     {
+        font-size: .7rem;
+     }
+     .room-items .room-content p
+     {
+        font-size: .8rem;
+     }
+     .room-items .room-content a
+     {
+        font-size: .5rem;
+     }
+     .rooms-wrapper .room-items:hover .room-content
+    {
+    transform: scale(.6);
+    -webkit-transform: scale(.6);
+    }
+    /* services */
+    .service-menu
+    {
+        padding: .2rem;
+    }
+    .service-menu-area
+    {
+        padding: 1.5rem 0.5rem;
+    }
+    .service-item-wrap .tab-pane img
+    {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 400px;
+    }
+    .service-menu-area ul li 
+    {
+        margin-left: unset !important;
+    }
+    /*9. blog  */
+    .our-partner-slider .partners
+.swiper-wrapper .swiper-slide img
+{
+    width: 100px; height: 100px;
+    border-radius: 50%;
+}
+}
+
+
+
+
+
+@media (max-width: 768px)
+{
+    /* Custom css */
+    h1
+    {
+      font-size: 1.875rem;
+      line-height: 2.5rem;
+    }
+    h3
+    {
+        font-size: 1.75rem;
+        line-height: 2.75rem;
+    }
+    h5
+    {
+        font-size: 1.25rem;
+    }
+    p
+    {
+        font-size: .8125rem;
+        line-height: 1.5rem;
+    }
+    /* banner-wrapper */
+    .form-btn button
+    {
+        position: relative;
+        top: 10px;
+        left: 35%;
+    }
+    /* blog  */
+    .blog-wrapper .blog-content
+{
+    margin: 0;
+    box-shadow:  0 .125rem .25rem rgb(34 30 31 / 40%);
+}
+/* footer */
+    .footer-wrapper > div
+    {
+        padding: 0 1.875rem;
+    }
+
+}
+
+
+
+
+@media (max-width: 568px) and (min-width: 300px)
+{
+    /* banner-wrapper */
+    .form-btn button
+    {
+        position: relative;
+        top: 10px;
+        left: 35%;
+    }
+
+}
+
+@media (max-width: 300px)
+{
+.our-partner-slider .partners
+.swiper-wrapper .swiper-slide img
+{
+    width: 70px; height: 70px;
+    border-radius: 50%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive End */

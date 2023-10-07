@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/images/icon/hotel.png">
+    <link rel="stylesheet" href="media/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="media/font awesome/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="media/css/style.css">
+    <link rel="stylesheet" href="media/css/responsive-style.css">
+    <title>The Hotel</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-----------------Navbar Section ------------------------------------------------->
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="media/images/logo/pngtree-receptionist-bell-hotel-logo-design-image_339601-fotor-2023093022113-removebg-preview.png"
+                        class="img-fluid" alt="no logo image">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon-box"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rooms">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <i class="fa-solid fa-moon" id="toggledark"></i>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!---------------------Navbar End ------------------------------------------------->
+
+    <!-----------------Banner Section ------------------------------------------------->
+    <section id="home" class="banner-wrapper p-0">
+        <div class="swiper myswiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide"
+                    style="background-image: url(./media/images/slider/istockphoto-88583691-612x612\ \(1\).jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Enjoying the Hotel <span> View !</span></h1>
+                            <p id="p1">The view of hotel balcony. The couple and family love to enjoying it . It is so
+                                beautiful
+                                and amazing scenery
+                                customers click pictures and with fresh air .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image: url(./media/images/slider/260344148\ \(1\).jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>The Hotel Outer <span> View !</span></h1>
+                            <p id="p2">Their you see the outer view of hotel and with night glow of hotel .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image: url(./media/images/slider/53172252\ \(1\).webp);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>The Hotel Rooms <span> View !</span></h1>
+                            <p id="p3">Their you see the room view of hotel and with clean and wonderful .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"
+                    style="background-image: url(./media/images/slider/Best-Hotels-in-Manali-for-Family\ \(1\).jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>The Hotel Open Breakfast table <span> View !</span></h1>
+                            <p id="p4">Their you see the Breakfast table with Wonderful & Open View.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"
+                    style="background-image: url(./media/images/slider/itc-maurya-new-delhi\ \(1\).jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>The Hotel Room Hall <span> View !</span></h1>
+                            <p id="p5">Their you see the hotel rooms hall where you are sitting watching television and
+                                gossip
+                                with family .</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="container booking-area">
+            <form action="#" class="row">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="" class="d-flex justify-content-center text-danger fw-bolder">Visit Date</label>
+                    <input type="date" class="form-control" placeholder="Visit Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="" class="d-flex justify-content-center text-danger fw-bolder">Checkout Date</label>
+                    <input type="date" class="form-control" placeholder="Checkout Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="" class="d-flex justify-content-center text-danger fw-bolder">Persons</label>
+                    <select name="" id="" class="form-select">
+                        <option selected>Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <label for="" class="d-flex justify-content-center text-danger fw-bolder">Kids</label>
+                    <select name="" id="" class="form-select">
+                        <option selected>Childern</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0 form-btn">
+                    <label for="" class="d-flex justify-content-center text-danger fw-bolder">Submit</label>
+                    <button type="submit" class="main-btn rounded-2 px-lg-3">Check Avialability</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!--------------------Banner End ------------------------------------------------->
+
+
+
+    <!-----------------About Section ------------------------------------------------->
+    <section class="about-wrapper" id="about">
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Welcome to <span>Hotel <br class="d-none d-lg-block"> the haven </span> of your weekend</h3>
+                    <p id="mypara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sequi repellendus
+                        cumque alias,
+                        velit culpa iusto maxime facilis sed quasi! Fuga excepturi eligendi ipsam ipsa, aperiam omnis
+                        vel quas iusto?</p>
+                    <p class="mypara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum architecto voluptas
+                        possimus eos
+                        dolore rerum sed, omnis nesciunt.</p>
+                    <a href="#" class="main-btn mt-4">Explore</a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                    <img src="media/images/about/two-business-people-check-hotel-reception_58466-8679.avif"
+                        alt="about img not found" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------About End ------------------------------------------------->
+
+
+
+    <!----------------- Rooms Section ------------------------------------------------->
+    <section id="rooms" class="rooms-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>What I can do for you</h5>
+                    <h3>Our favorite Rooms </h3>
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="media/images/room/luxury-rooms.jpg" alt="no img found" class="img-fluid">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-warning mb-lg-5 text-decoration-underline">Luxury Hotel Room</h5>
+                                <p class="text-white">Discover the Luxury Hotel with cleaness and beautiful</p>
+                                <p class="text-white fw-bold mt-lg-4">$150 / per Night</p>
+                                <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="media/images/room/luxury-dinner.webp" alt="no img found" class="img-fluid">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-warning mb-lg-5 text-decoration-underline">Luxury Dinner place</h5>
+                                <p class="text-white">Discover the Luxury Hotel with cleaness and beautiful</p>
+                                <p class="text-white fw-bold mt-lg-4">$150 / per Night</p>
+                                <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="media/images/room/luxury-interior.webp" alt="no img found" class="img-fluid">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-warning mb-lg-5 text-decoration-underline">Luxury Interior</h5>
+                                <p class="text-white">Discover the Luxury Interior with brightness shying</p>
+                                <p class="text-white fw-bold mt-lg-4">$150 / per Night</p>
+                                <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------Rooms section End ------------------------------------------------->
+
+
+    <!----------------- Services Section ------------------------------------------------->
+    <section id="services" class="service-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>We are here for your help</h5>
+                    <h3>Our Awesome Services</h3>
+                </div>
+            </div>
+
+            <div class="row align-items-center service-item-wrap">
+                <div class="col-lg-7 p-lg-0">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="spa" role="tabpanel">
+                            <img src="media/images/services/spa.webp" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="restaurent" role="tabpanel">
+                            <img src="media/images/services/resturant.webp" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="swimming" role="tabpanel">
+                            <img src="media/images/services/swimming.webp" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="hall" role="tabpanel">
+                            <img src="media/images/services/hall.jpg" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="recpition" role="tabpanel">
+                            <img src="media/images/services/recpition.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 position-relative p-lg-3">
+                    <div class="service-menu-area">
+                        <ul class="nav">
+                            <li>
+                                <a data-bs-toggle="tab" href="#spa" class="active">
+                                    <span class="services-icon">
+                                        <img src="media/images/services/spa-icon.png" alt="" id="spa-icon-img">
+                                    </span>
+                                    <h5> Spa, beauty & Health</h5>
+                                    <p><span>Spa and beauty</span> Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit. Est, non.</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#restaurent" data-bs-toggle="tab">
+                                    <span class="services-icon">
+                                        <img src="media/images/services/restaurent-icon.jpg" alt="">
+                                    </span>
+                                    <h5>Hotel Restaurent </h5>
+                                    <p><span>Restaurent</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Est, non.</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#swimming" data-bs-toggle="tab">
+                                    <span class="services-icon">
+                                        <img src="media/images/services/swimming-icon (1).jpg" alt="">
+                                    </span>
+                                    <h5>Swimming for customers</h5>
+                                    <p><span>Swimming pool</span> Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit. Est, non.</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#hall" data-bs-toggle="tab">
+                                    <span class="services-icon">
+                                        <img src="media/images/services/hotel-hall-icon (1).jpg" alt="">
+                                    </span>
+                                    <h5>Biggest hall</h5>
+                                    <p><span>Sitting area in hall</span> Lorem ipsum dolor sit amet consectetur,
+                                        adipisicing elit. Est, non.</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#recpition" data-bs-toggle="tab">
+                                    <span class="services-icon">
+                                        <img src="media/images/services/reciption-icon (1).jpg" alt="">
+                                    </span>
+                                    <h5>Recpition area for 24/7</h5>
+                                    <p><span>Recpition</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Est, non.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="counter mt-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count1"></span> +
+                        </h1>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count2"></span> +
+                        </h1>
+                        <p>Membership</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count3"></span> +
+                        </h1>
+                        <p>Five Star Ratings</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count4"></span> +
+                        </h1>
+                        <p>Served Breakfast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------Services  End ------------------------------------------------->
+
+
+
+
+    <!-----------------Team Section ------------------------------------------------->
+    <section id="team" class="team-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>Our Team for your help!</h5>
+                    <h3>Our Special Staff</h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card p-0 rounded-3">
+                            <img src="media/images/team/manager-hotel (1).webp" alt="" class="img-fluid rounded-3">
+                            <div class="team-info">
+                                <h5>Micahale Cray</h5>
+                                <p>Manager</p>
+                                <ul class="social-network">
+                                    <li><a href="#"><img src="media/images/team/facebook-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/instagram-btn.webp"></a></li>
+                                    <li><a href="#"><img src="media/images/team/twiiter-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/Untitled design.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card p-0 rounded-3">
+                            <img src="media/images/team/cheif-recipiton-officer.jpg" alt="" class="img-fluid rounded-3">
+                            <div class="team-info">
+                                <h5>Julie Carter</h5>
+                                <p>Cheif recpition</p>
+                                <ul class="social-network">
+                                    <li><a href="#"><img src="media/images/team/facebook-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/instagram-btn.webp"></a></li>
+                                    <li><a href="#"><img src="media/images/team/twiiter-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/Untitled design.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card p-0 rounded-3">
+                            <img src="media/images/team/master-chef.jpg" alt="" class="img-fluid rounded-3">
+                            <div class="team-info">
+                                <h5>Amit bhandri</h5>
+                                <p>Master Chef</p>
+                                <ul class="social-network">
+                                    <li><a href="#"><img src="media/images/team/facebook-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/instagram-btn.webp"></a></li>
+                                    <li><a href="#"><img src="media/images/team/twiiter-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/Untitled design.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card p-0 rounded-3">
+                            <img src="media/images/team/housekeeping.jpg" alt="" class="img-fluid rounded-3">
+                            <div class="team-info">
+                                <h5>Anella Green</h5>
+                                <p>Housekeeping</p>
+                                <ul class="social-network">
+                                    <li><a href="#"><img src="media/images/team/facebook-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/instagram-btn.webp"></a></li>
+                                    <li><a href="#"><img src="media/images/team/twiiter-btn-removebg-preview.png"></a>
+                                    </li>
+                                    <li><a href="#"><img src="media/images/team/Untitled design.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------Team End ------------------------------------------------->
+
+
+
+    <!-----------------Gallery Section ------------------------------------------------->
+    <section id="gallery" class="gallery-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>Best Picture of hotel</h5>
+                    <h3>Our Gallery</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4  col-md-6  p-3 mb-5 gallery-item">
+                    <img src="media/images/gallery/exterior.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6  p-3 mb-5 gallery-item">
+                    <img src="media/images/gallery/interior.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6  p-3 mb-5  gallery-item">
+                    <img src="media/images/gallery/outer2.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6  p-3 mb-5  gallery-item">
+                    <img src="media/images/gallery/party hall.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6  p-3 mb-5 gallery-item">
+                    <img src="media/images/gallery/sunbath area.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6  p-3 mb-5  gallery-item">
+                    <img src="media/images/gallery/swimming pool.webp" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6 p-3 mb-5  gallery-item">
+                    <img src="media/images/gallery/inner bed.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6  p-3 mb-5  gallery-item">
+                    <img src="media/images/gallery/table.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-xl-4  col-md-6 p-3 mb-5 gallery-item">
+                    <img src="media/images/gallery/outer1.jpg" alt="" class="img-fluid w-100">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------------------Gallery End ------------------------------------------------->
+
+
+    <!-----------------price  Section ------------------------------------------------->
+    <section class="price-wrapper" id="price">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12 section-title text-center mb-5 ">
+                    <h5>Best & Affordable Price for you</h5>
+                    <h3>Our pricing</h3>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket(2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30% off)</p>
+                            </li>
+                            <li>
+                                <p>Restaurent (Snacks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make (No)</p>
+                            </li>
+                        </ul>
+                        <hr>
+                        <h3>$250 <sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Book Up</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Party Recpition</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Party Ticket</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (40% off)</p>
+                            </li>
+                            <li>
+                                <p> Drinks (chilled)</p>
+                            </li>
+                            <li>
+                                <p>Special Table (Online-Booking)</p>
+                            </li>
+                        </ul>
+                        <hr>
+                        <h3>$250 <sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Book Up</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Booked Luxury Room</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p> Luxury Room</p>
+                            </li>
+                            <li>
+                                <p>Sweet-bedroom (30% off)</p>
+                            </li>
+                            <li>
+                                <p>Room Decoration</p>
+                            </li>
+                            <li>
+                                <p>Night View Room</p>
+                            </li>
+                        </ul>
+                        <hr>
+                        <h3>$250 <sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Book Up</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Restaurent</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Booking Table</p>
+                            </li>
+                            <li>
+                                <p>Dinner Table (40% off)</p>
+                            </li>
+                            <li>
+                                <p> With pleasant music</p>
+                            </li>
+                            <li>
+                                <p>Family Dinner Table</p>
+                            </li>
+                        </ul>
+                        <hr>
+                        <h3>$250 <sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Book Up</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!---------------------Price End ------------------------------------------------->
+
+
+    <!-----------------Blog Section ------------------------------------------------->
+    <section id="blog" class="blog-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>Welcome Dear Visiters In Our Hotel</h5>
+                    <h3>Our Blog</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4 ">
+                    <div class="card p-0 border-0 rounded-0">
+                        <img src="media/images/blog/customer.jpg" alt="">
+                        <div class="blog-content  p-4">
+                            <h5 class="text-decoration-underline mb-4"> Relax Zone</h5>
+                            <h6 class=" text-white">By Admin - October 2, 2023</h6>
+                            <p class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                aperiam
+                                consectetur, distinctio dolore obcaecati autem?</p>
+                            <a href="" class="main-btn mt-2"> Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card p-0 border-0 rounded-0">
+                        <img src="media/images/blog/bed.webp" alt="">
+                        <div class="blog-content p-4">
+                            <h5 class="text-decoration-underline mb-4"> Relax Zone</h5>
+                            <h6 class=" text-white">By Admin - October 2, 2023</h6>
+                            <p class="mt-2  text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                aperiam
+                                consectetur, distinctio dolore obcaecati autem?</p>
+                            <a href="" class="main-btn mt-2"> Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="our-partner-slider  mt-5">
+            <div class="container swiper partners">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><img src="media/images/partners/hotel1.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel2.webp"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel3.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel4.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel5.2.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel6.png"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel1.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel2.webp"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel3.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel4.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel5.2.jpg"></div>
+                    <div class="swiper-slide"><img src="media/images/partners/hotel6.png"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------------------Blog End ------------------------------------------------->
+
+    <!-------------------------------------Footer start----------------------------->
+    <section id="contact" class="footer-wrapper mt-3 mt-md-0 pb-0">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5>Hotel location</h5>
+                    <p class="ps-0" id="footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iure a, vero
+                        assumenda maiores magnam!....</p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i>Pritampura Delhi near rohini sector: 7</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>+91 6524552563</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>Thehotel@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Payment</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">Cash</a></li>
+                        <li><a href="#">Cheque</a></li>
+                        <li><a href="#">Net Banking</a></li>
+                        <li><a href="#">Visa</a></li>
+                        <li><a href="#">Online Payment</a></li>
+                        <li><a href="#">Bank Transfer</a></li>
+                        <li><a href="#">Including 18% GST</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Country</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">India</a></li>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">South korea</a></li>
+                        <li><a href="#">USA</a></li>
+                        <li><a href="#">Japan</a></li>
+                        <li><a href="#">Dubai</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Newsletter</h5>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control bg-white" placeholder="Enter your email here">
+                        <button type="submit"  class="main-btn rounded-2 mt-3 border-white text-white">
+                            Subscribe</button>
+                    </div>
+                    <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p id="copy-para">Copyright <a href="#">@ Rahul_Kumar.</a>All Right Reserved</p>
+        </div>
+    </section>
+    <!-------------------------------------Footer End------------------------------->
+
+
+
+
+
+
+
+
+
+
+    <!--------------------------------------Script link Section----------------------------->
+    <script src="media/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="media/js/main.js"></script>
+</body>
+
+</html>
